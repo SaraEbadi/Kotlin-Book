@@ -8,6 +8,13 @@ package com.kotlinbook.myapplication.kotlinbasic
  * which can be used as part of another expression, whereas a statement is always a top-level element
  * in its enclosing block and doesn't have its own value.
  */
-fun max(a: Int, b: Int) : Int {
+fun max(a: Int, b: Int): Int {
     return if (a > b) a else b
 }
+
+/**
+ * It's body consists of a single expression and you can remove curly braces.
+ * If a function written with its body and curly braces, this function has a block body,
+ * and if it return an expression it has an expression body.
+ */
+fun max2(a: Int, b: Int): Int = if (a > b) a else b
