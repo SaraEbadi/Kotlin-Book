@@ -1,4 +1,4 @@
-package com.kotlinbook.myapplication
+package com.kotlinbook.myapplication.kotlinbasic
 
 /**
  * 1-Declare dataClass with two parameters: name and age

@@ -1,4 +1,4 @@
-package com.kotlinbook.myapplication
+package com.kotlinbook.myapplication.kotlinbasic
 
 class SaraException : RuntimeException() {
 
