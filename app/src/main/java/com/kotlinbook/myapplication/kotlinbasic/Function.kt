@@ -18,3 +18,15 @@ fun max(a: Int, b: Int): Int {
  * and if it return an expression it has an expression body.
  */
 fun max2(a: Int, b: Int): Int = if (a > b) a else b
+
+/**
+ * Expression vs Statement:
+ * An expression is a combination of one or more explicit values,
+ * constants, variables, operators and functions that interprets and computes to produce another value.
+ * A statement is the smallest standalone element of an imperative programming language that
+ * expresses some action to be carried out.
+ */
+//val a = 10 --> its statement not an expression
+//a = 11  --> property assignment is not an expression
+//class A{}  --> Local class declaration is not an expression
+//sumOf(1,2,3)  --> expression
