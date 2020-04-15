@@ -18,9 +18,9 @@ var isTrue = true
  */
 fun getMessage() {
     val message: String
-    if(isTrue){
-        message ="Success"
-    }else{
+    if (isTrue) {
+        message = "Success"
+    } else {
         message = "Failure"
     }
 }
@@ -28,7 +28,7 @@ fun getMessage() {
 /**
  * Even though a val reference is itself immutable but the object that it point to may be mutable.
  */
-fun getLanguage(){
+fun getLanguage() {
     val languages = arrayListOf("java")
     languages.add("kotlin")
 }
@@ -36,7 +36,16 @@ fun getLanguage(){
 /**
  * Even though a var variable is mutable but it's type is fixed.
  */
-fun getAnswer(){
+fun getAnswer() {
     val answer = 42
     //answer = "answer"
+}
+
+/**
+ * This example introduces a feature called "string templates". declare a variable name and then use
+ * it in the following string literal.($name)
+ */
+fun main(args: Array<String>) {
+    val name = if (args.size > 0) args[0] else "Kotlin"
+    println("Hello $name")
 }
