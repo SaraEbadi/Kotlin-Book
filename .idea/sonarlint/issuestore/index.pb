@@ -11,3 +11,9 @@ Dapp/src/main/java/com/kotlinbook/myapplication/kotlinbasic/Person.kt,f\b\fb91e
 Kapp/src/main/java/com/kotlinbook/myapplication/kotlinbasic/SaraException.kt,f\7\f783d2a5f37f6be6bb7c9e6cb4796c62196df671
 
 Oapp/src/main/java/com/kotlinbook/myapplication/kotlinbasic/ClassesProperties.kt,4\1\41130792ae6e7c15d4142b5922e078c8a456c3ec
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+<
+build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
+@
+app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
