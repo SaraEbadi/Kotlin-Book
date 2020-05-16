@@ -41,7 +41,7 @@ fun max2(a: Int, b: Int): Int = if (a > b) a else b
  * (in Java you can do a = b = 2 or a = 2 * (b = 3)). All usages of control structures (if, switch)
  * in Java are not expressions, while Kotlin allowed if, when and try to return values:
  */
-fun Animal(a: Boolean, b: Boolean) {
+fun animal(a: Boolean, b: Boolean) {
     val zara = false
     val bird = if (a > b) a else b
     val color = when {

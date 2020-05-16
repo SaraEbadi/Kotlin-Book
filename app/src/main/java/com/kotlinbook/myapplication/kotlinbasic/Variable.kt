@@ -17,11 +17,10 @@ var isTrue = true
  * ensure that only one of the initialization statements will be executed.
  */
 fun getMessage() {
-    val message: String
-    if (isTrue) {
-        message = "Success"
+    val message = if (isTrue) {
+        "Success"
     } else {
-        message = "Failure"
+        "Failure"
     }
 }
 
